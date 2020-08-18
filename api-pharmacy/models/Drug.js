@@ -30,7 +30,5 @@ const drugSchema = new mongoose.Schema(
 );
 
 
-mongoose.set('useFindAndModify', false);
-
 const Drug = mongoose.model('Drug', drugSchema);
 module.exports = Drug;

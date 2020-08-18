@@ -25,7 +25,5 @@ const pharmacySchema = new mongoose.Schema(
     }
 );
 
-
-mongoose.set('useFindAndModify', false);
 const Pharmacy = mongoose.model('Pharmacy', pharmacySchema);
 module.exports = Pharmacy;

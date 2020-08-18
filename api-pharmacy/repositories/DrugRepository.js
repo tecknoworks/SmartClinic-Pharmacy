@@ -66,6 +66,6 @@ class DrugRepository extends Repository {
 
 }
 
-var druRepository = new DrugRepository(Drug);
+var drugRepository = new DrugRepository(Drug);
 
-module.exports = druRepository;
+module.exports = drugRepository;

@@ -9,6 +9,7 @@ router.get("/pharmacy/:id", DrugService.getDrugsForPharmacy)
 
 router.post("/name/id", DrugService.getByNameAndPharmacyId);
 router.post("/", DrugService.post);
+router.post("/findByName", DrugService.findByName)
 
 router.delete("/:drug/:pharmacy", DrugService.removeDrugFromPharmacy);
 router.delete('/:id',DrugService.remove);

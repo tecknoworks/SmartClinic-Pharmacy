@@ -5,7 +5,6 @@ const PharmacyService = require('../services/PharmacyService');
 
 router.get("/", PharmacyService.get);
 router.get("/:id", PharmacyService.getById);
-router.get("/drug/:id", PharmacyService);
 
 router.post("/findByName", PharmacyService.findByName)
 router.post("/", PharmacyService.post);
